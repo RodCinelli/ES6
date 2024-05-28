@@ -40,6 +40,9 @@ console.log(existeAlgumAlunoDeBackend);
 function filtraAlunosDeBackend(aluno) {
   return aluno.curso === 'Backend';
 }
+var filtraAlunosDeBackend2 = function filtraAlunosDeBackend2(aluno) {
+  return aluno.curso === 'Backend';
+};
 var alunosDeBackend = alunos2.filter(filtraAlunosDeBackend);
 console.log(alunosDeBackend);
 var nums = [10, 20, 30, 10];
